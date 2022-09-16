@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  background: #1B244A;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  width: 150px;
+  height: 36px;
+  left: 85px;
+  top: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #EEEEEE;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 68px;
+  margin-bottom: 21px;
+}
+
+.home-score {
+  width: 155px;
+  height: 120px;
+  top: 125px;
+  left: 82px;
+  border-radius: 5px;
+  background-color: #080001;
+}
+
+.home-points {
+  width: 117px;
+  height: 120px;
+  left: 100px;
+  top: 125px;
+  padding-left: 18px;
+  padding-right: 20px;
+  padding-top: 5px;
+  font-family: Cursed Timer ulil;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 130px;
+  text-align: center;
+  color: #F94F6D;
+}
+
+.add-points-btns {
+  width: 155px;
+  height: 45px;
+  margin-top: 21px;
+}
+
+button {
+  width: 45px;
+  height: 45px;
+  top: 271px;
+  left: 82px;
+  border-radius: 5px;
+  border: 2px solid rgb(130, 152, 238);
+  background-color: #1B244A;
+  color:rgb(130, 152, 238);
+  font-size: 18px;
+  font-family: cursed Timer Ulil;
+  cursor: pointer;
+}
+
+.plus-one-point {
+  margin-right: 5px;
+}
+
+.plus-three-point {
+  margin-left: 5px;
+}
+
+
